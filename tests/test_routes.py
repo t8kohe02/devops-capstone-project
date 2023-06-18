@@ -176,10 +176,10 @@ class TestAccountService(TestCase):
         data = resp.get_json()
         self.assertEqual(len(data), 5)
 
-
     ######################################################################
     #  C O R S  S E C U R I Y  T E S T  C A S E S
     ######################################################################
+    
 
     def test_security_headers(self):
         """It should return security headers"""
